@@ -1,0 +1,171 @@
+html {
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+#header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header h3 {
+    color: #F9FAF8;
+    flex: 1;
+    padding-left: 8em;
+    font-size: 24px;
+}
+
+#header h4 {
+    color: #E5E7EB;
+    padding-right: 5em;
+    cursor: pointer;
+}
+
+#mainContent {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 8em;
+}
+
+#mainContent h1{
+    color: #F9FAF8;
+    margin: 0;
+    padding-left: 1.5em;
+    font-size: 48px;
+    position: relative;
+    bottom: 1.5em;
+}
+
+#mainContent h4 {
+    color: #E5E7EB;
+    margin: 0;
+    padding-left: 5em;
+    position: relative;
+    bottom: 4em
+}
+
+#mainContent button {
+    margin-left: 6em;
+    position: relative;
+    top: 2em;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2.5px solid #3882F6;
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #E5E7EB;
+    background-color: #3e70c0;
+}
+
+#mainContentBox img {
+    width: 32em;
+    height: 15em;
+    position: absolute;
+    left: 45em;
+    bottom: 15em
+}
+
+#randomInfo {
+    background-color: #F9FAF8;
+    margin: 0;
+    padding: 1em;
+}
+
+#randomInfo h2 {
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1em;
+    font-size: 36px;
+}
+
+#randomInfoBox {
+    display: flex;
+    justify-content: center;
+}
+
+#randomInfoBox img {
+    width: 9em;
+    height: 9em;
+    border: 3px solid #3882F6;
+    border-radius: 15%;
+    position: relative;
+    left: 4em;
+}
+
+#randomInfoBox h4 {
+    margin-top: 10em;
+    position: relative;
+    right: 4em;
+}
+
+#randomQuote {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 6em;
+}
+
+#randomQuote h2 {
+    font-size: 36px;
+}
+
+#randomQuote h3 {
+    position: relative;
+    left: 20em;
+    font-size: 1.2em;
+}
+
+#signUp {
+    background-color: #F9FAF8;
+    padding: 2em;
+}
+
+#signUpBox {
+    background-color: #3882F6;
+    margin: 7em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6em;
+}
+
+#signUpBox h3 {
+    color: #F9FAF8;
+    position: relative;
+    top: 1.5em;
+}
+
+#signUpBox h4 {
+    color: #E5E7EB;
+}
+
+#signUpBox button {
+    border: 2.5px solid #F9FAF8;
+    position: relative;
+    left: 54em;
+    bottom: 4em;
+}
+
+#footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 1.5em;
+    color: #E5E7EB;
+}
